@@ -4,7 +4,8 @@
 // @version      2.0.5
 // @description  Slither.io Mods, Unlock skin, bots, play with friends
 // @author       Slither-io.com
-// @match        http://slither.io/
+// @match        http://slither.io/*
+// @match        https://slither.io/*
 // @grant        none
 // ==/UserScript==
 (function() {
