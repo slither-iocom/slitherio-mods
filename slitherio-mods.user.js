@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Slither-io.com
 // @namespace    http://slither-io.com/
-// @version      2.0.4
+// @version      2.0.5
 // @description  Slither.io Mods, Unlock skin, bots, play with friends
 // @author       Slither-io.com
 // @match        *slither.io/*
