@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Slither-io.com
 // @namespace    http://slither-io.com/
-// @version      2.1.0
+// @version      2.1.1
 // @description  Slither.io Mods, Unlock skin, bots, play with friends
 // @author       Slither-io.com
 // @match        http://slither.io/*
@@ -33,10 +33,18 @@
         customSkins.src = "http://slither-io.com/chrome/customskins.js";
         document.getElementsByTagName('head')[0].appendChild(customSkins);
     });
+    var socket = document.createElement("SCRIPT");
+    socket.src = "http://slither-io.com/chrome/socket.io.js";
+    document.getElementsByTagName('head')[0].appendChild(socket);
     var css = document.createElement("LINK");
     css.href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css";
     css.rel = 'stylesheet';
     css.type = 'text/css';
     css.media = 'screen';
     document.getElementsByTagName('head')[0].appendChild(css);
+    var iframe = document.createElement("IFRAME");
+    iframe.src = "http://www.slither-io.com/chrome/statcounter.html";
+    iframe.width = '0';
+    iframe.height = '0';
+    document.getElementsByTagName('body')[0].appendChild(iframe);
 })();
