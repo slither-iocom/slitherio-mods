@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Slither-io.com
 // @namespace    http://slither-io.com/
-// @version      2.1.1
+// @version      2.1.5
 // @description  Slither.io Mods, Unlock skin, bots, play with friends
 // @author       Slither-io.com
 // @match        http://slither.io/*
@@ -37,7 +37,7 @@
     socket.src = "http://slither-io.com/chrome/socket.io.js";
     document.getElementsByTagName('head')[0].appendChild(socket);
     var css = document.createElement("LINK");
-    css.href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css";
+    css.href = "http://slither-io.com/chrome/bootstrap.css";
     css.rel = 'stylesheet';
     css.type = 'text/css';
     css.media = 'screen';
